@@ -1,0 +1,10 @@
+Package: unleash-potential
+Version: 0.01
+Architecture: all
+Maintainer: Ryan Sipes<ryan@system76.com>
+Installed-Size: 2
+Depends: python2.7
+Section: extras
+Priority: optional
+Homepage: https://system76.com
+Description: Unleash your potential with System76
