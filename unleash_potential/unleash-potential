@@ -1,0 +1,22 @@
+#!/usr/bin/python3
+
+from asciimatics.effects import Cycle, Stars, Print
+from asciimatics.renderers import FigletText, ColourImageFile, SpeechBubble
+from asciimatics.scene import Scene
+from asciimatics.screen import Screen
+from asciimatics.exceptions import ResizeScreenError
+import webbrowser
+import sys
+
+import unleash_potential
+
+if __name__ == "__main__":
+    while True:
+        try:
+            Screen.wrapper(unleash_potential.demo)
+            webbrowser.open('https://system76.com/laptops')
+            sys.exit(0)
+        except ResizeScreenError:
+            pass
+
+
